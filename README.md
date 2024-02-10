@@ -1,6 +1,14 @@
 # OracleServerCommands
-#### Creamos servidor cloud en oracle (ubuntu) y nos conectamos por SSH
+#### Creamos servidor cloud en oracle (ubuntu) y nos conectamos por SSH (establecemos ip publica fija)
 # Comandos usados
-cls
+clear
+-
 sudo su
+-
 apt-get update
+-
+Revisamos si esta instalada la librería screen para mantener el servidor abierto aunque no estemos conectados
+-
+Para cambiar configuración de firewall y privacidad de puertos 
+apt install firewalld
+firewall-cmd --permanent --zone=public --add-port={port}/{protocol}
