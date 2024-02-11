@@ -6,6 +6,7 @@ clear
 sudo su
 -
 apt-get update
+apt-get upgrade
 -
 Revisamos si esta instalada la librería screen para mantener el servidor abierto aunque no estemos conectados
 -
