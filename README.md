@@ -1,6 +1,6 @@
 # OracleServerCommands
 #### Creamos servidor cloud en oracle (ubuntu) y nos conectamos por SSH (establecemos ip publica fija)
-# Comandos usados
+# Comandos usados.
 clear
 -
 sudo su
